@@ -1,11 +1,11 @@
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 .container{
     background-color: #128c7e;
     width: auto;
-    margin: auto; 
     padding: 20px; 
 }
 
@@ -93,8 +93,14 @@ header{
     text-decoration: none;
     color: #12a191;
     display: flex;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 20px;
+}
+
+.icon i{
+    padding-top: 25px;
+    padding-right:  20px;
+    color: #128c7e;
 }
 
 .title_two{
